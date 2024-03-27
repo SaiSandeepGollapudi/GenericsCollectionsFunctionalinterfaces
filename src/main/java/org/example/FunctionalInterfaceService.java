@@ -15,7 +15,7 @@ public class FunctionalInterfaceService {
 MyFunctionalInterfaceTwo myFunctionalInterfaceTwo= () -> System.out.println("Hi");
 myFunctionalInterfaceTwo.doSomething();
 
-MyFunctionalInterfaceThree myFunctionalInterfaceThree= () -> {return 10;};
+MyFunctionalInterfaceThree myFunctionalInterfaceThree=()->{return 10;};// Eg {dataBaseService.fetchNext();}; like insta feed
 int a = myFunctionalInterfaceThree.doSomething();
         System.out.println(a);
 
